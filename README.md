@@ -1,5 +1,5 @@
 # PRS
-Layered Architecture Asp.NET WebAPI Project (Dapper, UoW, Postsharp, Autofac, SimpleInjector)
+Layered Architecture Asp.NET WebAPI Project (Dapper, UoW, Postsharp, DI with IoC)
 
 - This project has the customized Dapper and Dapper.Contrib for works with Oracle 11g. 
 - Implementation and Unit of Work pattern for managing transactions.
