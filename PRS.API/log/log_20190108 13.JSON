@@ -1,0 +1,90 @@
+[{
+  "level": "INFO",
+  "renderedMessage": "Entering FooService.CustomQuery.",
+  "timestampUtc": "08.01.2019 13:25:39",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:21)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Method CustomQuery\r\nArguments:\r\n PostSharp.Aspects.Arguments Empty = PostSharp.Aspects.Arguments",
+  "timestampUtc": "08.01.2019 13:25:39",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:22)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Leaving FooService.CustomQuery. Return value PRS.BLL.Result.BusinessResult",
+  "timestampUtc": "08.01.2019 13:25:57",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnExit(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:27)"
+}, 
+[{
+  "level": "INFO",
+  "renderedMessage": "Entering FooService.CustomQuery.",
+  "timestampUtc": "08.01.2019 13:27:13",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:21)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Method CustomQuery\r\nArguments:\r\n PostSharp.Aspects.Arguments Empty = PostSharp.Aspects.Arguments",
+  "timestampUtc": "08.01.2019 13:27:13",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:22)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Leaving FooService.CustomQuery. Return value PRS.BLL.Result.BusinessResult",
+  "timestampUtc": "08.01.2019 13:27:14",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnExit(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:27)"
+}, 
+{
+  "level": "INFO",
+  "renderedMessage": "Entering FooService.CustomQuery.",
+  "timestampUtc": "08.01.2019 13:27:26",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:21)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Method CustomQuery\r\nArguments:\r\n PostSharp.Aspects.Arguments Empty = PostSharp.Aspects.Arguments",
+  "timestampUtc": "08.01.2019 13:27:26",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:22)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Leaving FooService.CustomQuery. Return value PRS.BLL.Result.BusinessResult",
+  "timestampUtc": "08.01.2019 13:27:26",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnExit(D:\\Azure Projects\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:27)"
+}, 

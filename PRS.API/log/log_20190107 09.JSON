@@ -1,0 +1,156 @@
+[{
+  "level": "INFO",
+  "renderedMessage": "Entering FooService.CustomQuery.",
+  "timestampUtc": "07.01.2019 09:06:03",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:21)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Method CustomQuery\r\nArguments:\r\n PostSharp.Aspects.Arguments Empty = PostSharp.Aspects.Arguments",
+  "timestampUtc": "07.01.2019 09:06:03",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:22)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Leaving FooService.CustomQuery. Return value ",
+  "timestampUtc": "07.01.2019 09:06:04",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnExit(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:27)"
+}, 
+{
+  "level": "ERROR",
+  "renderedMessage": "hata test",
+  "timestampUtc": "07.01.2019 09:06:09",
+  "logger": "PRS.Core.Aspects.Exception.ExceptionAspect",
+  "exceptionObject": {
+    "ClassName": "Oracle.ManagedDataAccess.Client.OracleException",
+    "Message": "Dis bilesen özel durum olusturdu.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   konum: OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)\r\n   konum: Oracle.ManagedDataAccess.Client.OracleConnection.Open()\r\n   konum: PRS.Core.IoC.SimpleInjector.SimpleInjectorModules.<>c__DisplayClass0_0.<RegisterServices>b__7() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\IoC\\SimpleInjector\\SimpleInjectorModules.cs içinde: satir 46\r\n   konum: PRS.Core.UoW.Concrete.DbConnectionFactory.CreateOpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbConnectionFactory.cs içinde: satir 18\r\n   konum: PRS.Core.UoW.Concrete.DbContext.OpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 60\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Connection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 20\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Transaction() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 22\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_UnitOfWork() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 24\r\n   konum: PRS.DAL.Concrete.RepositoryBase`1.get_Db() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\RepositoryBase.cs içinde: satir 20\r\n   konum: PRS.DAL.Concrete.Dapper.DpFooDAL.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\Dapper\\DpFooDAL.cs içinde: satir 19\r\n   konum: PRS.BLL.Concrete.FooService.<CustomQuery>b__3_0() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 28\r\n   konum: PRS.Core.Caching.InMemoryCache.GetOrSet[T](String cacheKey, Func`1 getItemCallback, Int32 expiration) C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Caching\\InMemoryCache.cs içinde: satir 17\r\n   konum: PRS.BLL.Concrete.FooService.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 34",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": "8\nGet\nOracle.ManagedDataAccess, Version=4.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342\nOracleInternal.ConnectionPool.PoolManager`3\nPR Get(OracleInternal.ConnectionPool.ConnectionString, Boolean, Oracle.ManagedDataAccess.Client.OracleConnection, System.String, Boolean)",
+    "HResult": -2147467259,
+    "Source": "Oracle Data Provider for .NET, Managed Driver",
+    "WatsonBuckets": null,
+    "Oracle.ManagedDataAccess.Client.OracleException": [
+      {
+        "DataSource": "",
+        "Message": "ORA-28000: the account is locked\n",
+        "Number": 28000,
+        "Procedure": "",
+        "Source": "Oracle Data Provider for .NET, Managed Driver",
+        "ArrayBindIndex": -1
+      }
+    ]
+  },
+  "exceptionObjectString": "Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-28000: the account is locked\r\n   konum: OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)\r\n   konum: Oracle.ManagedDataAccess.Client.OracleConnection.Open()\r\n   konum: PRS.Core.IoC.SimpleInjector.SimpleInjectorModules.<>c__DisplayClass0_0.<RegisterServices>b__7() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\IoC\\SimpleInjector\\SimpleInjectorModules.cs içinde: satir 46\r\n   konum: PRS.Core.UoW.Concrete.DbConnectionFactory.CreateOpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbConnectionFactory.cs içinde: satir 18\r\n   konum: PRS.Core.UoW.Concrete.DbContext.OpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 60\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Connection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 20\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Transaction() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 22\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_UnitOfWork() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 24\r\n   konum: PRS.DAL.Concrete.RepositoryBase`1.get_Db() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\RepositoryBase.cs içinde: satir 20\r\n   konum: PRS.DAL.Concrete.Dapper.DpFooDAL.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\Dapper\\DpFooDAL.cs içinde: satir 19\r\n   konum: PRS.BLL.Concrete.FooService.<CustomQuery>b__3_0() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 28\r\n   konum: PRS.Core.Caching.InMemoryCache.GetOrSet[T](String cacheKey, Func`1 getItemCallback, Int32 expiration) C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Caching\\InMemoryCache.cs içinde: satir 17\r\n   konum: PRS.BLL.Concrete.FooService.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 34",
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Exception.ExceptionAspect.OnException(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Exception\\ExceptionAspect.cs:24)"
+}, 
+[{
+  "level": "INFO",
+  "renderedMessage": "Entering FooService.CustomQuery.",
+  "timestampUtc": "07.01.2019 09:08:17",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:21)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Method CustomQuery\r\nArguments:\r\n PostSharp.Aspects.Arguments Empty = PostSharp.Aspects.Arguments",
+  "timestampUtc": "07.01.2019 09:08:18",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:22)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Leaving FooService.CustomQuery. Return value ",
+  "timestampUtc": "07.01.2019 09:08:26",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnExit(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:27)"
+}, 
+[{
+  "level": "INFO",
+  "renderedMessage": "Entering FooService.CustomQuery.",
+  "timestampUtc": "07.01.2019 09:13:04",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:21)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Method CustomQuery\r\nArguments:\r\n PostSharp.Aspects.Arguments Empty = PostSharp.Aspects.Arguments",
+  "timestampUtc": "07.01.2019 09:13:04",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnEntry(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:22)"
+}, 
+{
+  "level": "ERROR",
+  "renderedMessage": "hata test",
+  "timestampUtc": "07.01.2019 09:13:15",
+  "logger": "PRS.Core.Aspects.Exception.ExceptionAspect",
+  "exceptionObject": {
+    "ClassName": "Oracle.ManagedDataAccess.Client.OracleException",
+    "Message": "Dis bilesen özel durum olusturdu.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   konum: OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)\r\n   konum: Oracle.ManagedDataAccess.Client.OracleConnection.Open()\r\n   konum: PRS.Core.IoC.SimpleInjector.SimpleInjectorModules.<>c__DisplayClass0_0.<RegisterServices>b__7() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\IoC\\SimpleInjector\\SimpleInjectorModules.cs içinde: satir 46\r\n   konum: PRS.Core.UoW.Concrete.DbConnectionFactory.CreateOpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbConnectionFactory.cs içinde: satir 18\r\n   konum: PRS.Core.UoW.Concrete.DbContext.OpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 60\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Connection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 20\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Transaction() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 22\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_UnitOfWork() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 24\r\n   konum: PRS.DAL.Concrete.RepositoryBase`1.get_Db() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\RepositoryBase.cs içinde: satir 20\r\n   konum: PRS.DAL.Concrete.Dapper.DpFooDAL.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\Dapper\\DpFooDAL.cs içinde: satir 19\r\n   konum: PRS.BLL.Concrete.FooService.<CustomQuery>b__3_0() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 31\r\n   konum: PRS.Core.Caching.InMemoryCache.GetOrSet[T](String cacheKey, Func`1 getItemCallback, Int32 expiration) C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Caching\\InMemoryCache.cs içinde: satir 17\r\n   konum: PRS.BLL.Concrete.FooService.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 31",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": "8\nGet\nOracle.ManagedDataAccess, Version=4.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342\nOracleInternal.ConnectionPool.PoolManager`3\nPR Get(OracleInternal.ConnectionPool.ConnectionString, Boolean, Oracle.ManagedDataAccess.Client.OracleConnection, System.String, Boolean)",
+    "HResult": -2147467259,
+    "Source": "Oracle Data Provider for .NET, Managed Driver",
+    "WatsonBuckets": null,
+    "Oracle.ManagedDataAccess.Client.OracleException": [
+      {
+        "DataSource": "",
+        "Message": "ORA-28000: the account is locked\n",
+        "Number": 28000,
+        "Procedure": "",
+        "Source": "Oracle Data Provider for .NET, Managed Driver",
+        "ArrayBindIndex": -1
+      }
+    ]
+  },
+  "exceptionObjectString": "Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-28000: the account is locked\r\n   konum: OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)\r\n   konum: OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)\r\n   konum: Oracle.ManagedDataAccess.Client.OracleConnection.Open()\r\n   konum: PRS.Core.IoC.SimpleInjector.SimpleInjectorModules.<>c__DisplayClass0_0.<RegisterServices>b__7() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\IoC\\SimpleInjector\\SimpleInjectorModules.cs içinde: satir 46\r\n   konum: PRS.Core.UoW.Concrete.DbConnectionFactory.CreateOpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbConnectionFactory.cs içinde: satir 18\r\n   konum: PRS.Core.UoW.Concrete.DbContext.OpenConnection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 60\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Connection() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 20\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_Transaction() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 22\r\n   konum: PRS.Core.UoW.Concrete.DbContext.get_UnitOfWork() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\UoW\\Concrete\\DbContext.cs içinde: satir 24\r\n   konum: PRS.DAL.Concrete.RepositoryBase`1.get_Db() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\RepositoryBase.cs içinde: satir 20\r\n   konum: PRS.DAL.Concrete.Dapper.DpFooDAL.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.DAL\\Concrete\\Dapper\\DpFooDAL.cs içinde: satir 19\r\n   konum: PRS.BLL.Concrete.FooService.<CustomQuery>b__3_0() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 31\r\n   konum: PRS.Core.Caching.InMemoryCache.GetOrSet[T](String cacheKey, Func`1 getItemCallback, Int32 expiration) C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Caching\\InMemoryCache.cs içinde: satir 17\r\n   konum: PRS.BLL.Concrete.FooService.CustomQuery() C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs içinde: satir 31",
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.BLL.Concrete.FooService.CustomQuery(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.BLL\\Concrete\\FooService.cs:37)"
+}, 
+{
+  "level": "DEBUG",
+  "renderedMessage": "Leaving FooService.CustomQuery. Return value ",
+  "timestampUtc": "07.01.2019 09:13:18",
+  "logger": "PRS.Core.Aspects.Logging.LogAspect",
+  "exceptionObject": null,
+  "exceptionObjectString": null,
+  "userName": "DESKTOP-KFA47U1\\berkan",
+  "location": "PRS.Core.Aspects.Logging.LogAspect.OnExit(C:\\Users\\berkan\\source\\Workspaces\\Frito Lay PAS\\Ready.PRS\\PRS.Core\\Aspects\\Logging\\LogAspect.cs:27)"
+}, 
